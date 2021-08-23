@@ -1,0 +1,19 @@
+class Employee:
+    no_of_leaves=8
+    pass
+u=Employee()
+v=Employee()
+u.name="utkarsh"
+u.salary=30000
+u.role="sde"
+v.name="vaibhav"
+v.salary=15000
+v.role="sde(trainee)"
+#print(v.role)
+#print(v.no_of_leaves)
+print(u.__dict__)
+print(Employee.no_of_leaves)
+Employee.no_of_leaves=10
+u.no_of_leaves=12
+print(u.__dict__)
+print(Employee.no_of_leaves)

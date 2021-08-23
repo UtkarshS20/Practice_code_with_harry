@@ -1,0 +1,4 @@
+'this is test case from write a file''this is test case from write a file''this is test case from write a file'
+this is test case from write a file
+this is test case from write a file
+thanks

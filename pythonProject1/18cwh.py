@@ -1,0 +1,8 @@
+f=open("utkarsh.txt")
+#print(f.tell())
+print(f.readline())
+#print(f.tell())
+f.seek(100)
+print(f.readline())
+#print(f.tell())
+f.close()
